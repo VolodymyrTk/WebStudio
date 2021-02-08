@@ -1,3 +1,82 @@
+/* Палитра */
+:root {
+  --brand-color: #2196f3;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --main-color: #212121;
+  --general-color: #757575;
+  --background-color-main-block: #2f303a;
+  --background-color-team-block: #f5f4fa;
+}
+/* Верхняя линия */
+.page-header {
+  font-family: 'Roboto', 'Times New Roman', 'Times', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1em;
+  letter-spacing: 0.02em;
+}
+.page-logo {
+  color: var(--logo-color);
+
+  font-family: 'Raleway', 'Times New Roman', 'Times', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+}
+.page-logo,
+.link {
+  text-decoration: none;
+}
+.page-logo span {
+  color: var(--brand-color);
+}
+.nav-links .link {
+  color: var(--black-color);
+}
+.nav-links .link:hover,
+.nav-links .link:focus,
+.address-links .link:hover,
+.address-links .link:focus {
+  color: var(--brand-color);
+}
+.nav-links,
+.address-links,
+.features-list,
+.cases-list,
+.team-list {
+  list-style: none;
+}
+.address-links .link {
+  color: var(--general-color);
+}
+/* шапка */
+.main-section {
+  background-color: var(--background-color-main-block);
+  color: var(--white-color);
+  font-family: 'Roboto', 'Times New Roman', 'Times', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 2em;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+.main-title {
+  text-transform: uppercase;
+  font-size: 44px;
+  line-height: 60px;
+}
+.button {
+  background-color: var(--brand-color);
+  color: var(--white-color);
+  line-height: 30px;
+  cursor: pointer;
+}
+/* Особенности */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -5,9 +84,80 @@
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.features-title {
+  color: var(--main-color);
+
+  text-transform: uppercase;
+
+  font-family: 'Roboto', 'Times New Roman', 'Times', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1em;
+  letter-spacing: 0.03em;
+}
+.features-description {
+  color: var(--general-color);
+
+  font-family: 'Roboto', 'Times New Roman', 'Times', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2em;
+  letter-spacing: 0.03em;
+}
+/* Чем мы занимаемся  */
+.cases-title,
+.team-title {
+  font-family: 'Roboto', 'Times New Roman', 'Times', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Наша команда */
+.team {
+  background-color: var(--background-color-team-block);
+}
+.team-name,
+.team-role {
+  color: var(--main-color);
+
+  font-family: 'Roboto', 'Times New Roman', 'Times', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+}
+.team-role {
+  color: var(--general-color);
+  font-weight: 400;
+}
+/* шапка */
+.page-footer {
+  background-color: var(--background-color-main-block);
+}
+.page-footer .page-logo,
+.address-office {
+  color: var(--white-color);
+}
+.address {
+  font-style: normal;
+}
+.address-office {
+  font-family: 'Roboto', 'Times New Roman', 'Times', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2em;
+  letter-spacing: 0.03em;
 }
