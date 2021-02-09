@@ -42,7 +42,7 @@ body {
 
   font-weight: 500;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 .site-nav .link.current {
@@ -83,7 +83,7 @@ body {
   font-weight: 900;
   font-size: 44px;
 
-  line-height: 1.4em;
+  line-height: 1.4;
   letter-spacing: 0.06em;
 
   text-transform: uppercase;
@@ -95,7 +95,7 @@ body {
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 2;
+  line-height: 1.9;
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -134,7 +134,7 @@ body {
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 1;
+  line-height: 1.1;
   letter-spacing: 0.03em;
 
   text-transform: uppercase;
@@ -144,7 +144,7 @@ body {
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 2em;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 /* Чем мы занимаемся  */
@@ -169,7 +169,7 @@ body {
   color: var(--primary-text-color);
 
   font-weight: 500;
-  line-height: 1.2em;
+  line-height: 1.2;
 }
 .team-list .position {
   color: var(--secondary-text-color);
@@ -197,7 +197,7 @@ body {
   font-weight: 400;
   font-size: 14px;
 
-  line-height: 2em;
+  line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
